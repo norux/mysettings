@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# compile 환경 
+alias arm_gcc='source ~/git/mysettings/build_env/arm_compile_env.sh'
+alias norm_gcc='source ~/git/mysettings/build_env/norm_compile_env.sh'
