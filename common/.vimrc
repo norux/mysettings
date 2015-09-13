@@ -23,10 +23,10 @@ set ls=2	"last statusbar
 syntax on
 
 "============= vim 창 크기 조절 ============
-nmap <s-h> <C-W><
-nmap <s-j> <C-W>-
-nmap <s-k> <C-W>+
-nmap <s-l> <C-W>>
+"nmap <s-h> <C-W><
+"nmap <s-j> <C-W>-
+"nmap <s-k> <C-W>+
+"nmap <s-l> <C-W>>
 
 "============= vim 창이동 ============
 nmap <c-k> <c-w>k
