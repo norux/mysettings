@@ -17,4 +17,6 @@ alias c='clear'
 # SVN EDITOR
 export SVN_EDITOR=vim
 
+PS1='\u:\W \$ '
+
 source ~/.myrc
