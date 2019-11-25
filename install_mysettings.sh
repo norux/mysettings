@@ -31,6 +31,8 @@ if [ "$MY_OS" == "Linux" ]; then
 elif [ "$MY_OS" == "Darwin" ]; then
     backup ~/.bashrc bashrc
     cp mac/.bashrc ~/.bashrc
+    backup ~/.zshrc zshrc
+    cp mac/.zshrc ~/.zshrc
 fi
 
 if [ $? -eq 0 ]; then
