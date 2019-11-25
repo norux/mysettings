@@ -2,5 +2,5 @@
 =============
 
 * Author: Andrew Heebum Kwak
-* Email: kh-1143@hanmail.net
+* Email: andrew@norux.me
 * Description: all my settings
