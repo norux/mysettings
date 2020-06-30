@@ -13,11 +13,14 @@ function backup()
     fi
 }
 
+backup ~/.gitconfig gitconfig
+cp common/gitconfig ~/.gitconfig
+
 backup ~/.vimrc vimrc
-cp common/.vimrc ~/.vimrc
+cp common/vimrc ~/.vimrc
 
 backup ~/.myrc myrc
-cp common/.myrc ~/.myrc
+cp common/myrc ~/.myrc
 
 if [ "root" == `whoami` ]; then
     cp common/svndiff-vim.sh /usr/local/bin
@@ -27,12 +30,12 @@ MY_OS=`uname`
 
 if [ "$MY_OS" == "Linux" ]; then
     backup ~/.bashrc bashrc
-    cp linux/.bashrc ~/.bashrc
+    cp linux/bashrc ~/.bashrc
 elif [ "$MY_OS" == "Darwin" ]; then
     backup ~/.bashrc bashrc
-    cp mac/.bashrc ~/.bashrc
+    cp mac/bashrc ~/.bashrc
     backup ~/.zshrc zshrc
-    cp mac/.zshrc ~/.zshrc
+    cp mac/zshrc ~/.zshrc
 fi
 
 if [ $? -eq 0 ]; then

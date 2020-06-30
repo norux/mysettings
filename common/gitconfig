@@ -1,0 +1,7 @@
+[user]
+	name = norux
+	email = andrew@norux.me
+[merge]
+	tool = vimdiff
+[diff]
+	external = vimdiff
