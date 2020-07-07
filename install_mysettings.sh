@@ -13,12 +13,18 @@ function backup()
     fi
 }
 
+# gitconfig setting
 backup ~/.gitconfig gitconfig
-cp common/gitconfig ~/.gitconfig
+cp common/git/gitconfig ~/.gitconfig
+mkdir ~/gitpub ~/gitwork
+cp common/git/gitconfig-pub ~/gitpub/.gitconfig
+cp common/git/gitconfig-work ~/gitwork/.gitconfig
 
+# vimrc setting
 backup ~/.vimrc vimrc
 cp common/vimrc ~/.vimrc
 
+# myrc setting
 backup ~/.myrc myrc
 cp common/myrc ~/.myrc
 
