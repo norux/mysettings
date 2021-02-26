@@ -17,8 +17,8 @@ function backup()
 backup ~/.gitconfig gitconfig
 cp common/git/gitconfig ~/.gitconfig
 mkdir ~/gitpub ~/gitwork
-cp common/git/gitconfig-pub ~/gitpub/.gitconfig
-cp common/git/gitconfig-work ~/gitwork/.gitconfig
+cp common/git/gitconfig-gitpub ~/gitpub/.gitconfig
+cp common/git/gitconfig-gitwork ~/gitwork/.gitconfig
 
 # vimrc setting
 backup ~/.vimrc vimrc
