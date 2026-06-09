@@ -1,8 +1,3 @@
-[merge]
-	tool = vimdiff
-[diff]
-	external = vimdiff
-
 [includeIf "gitdir:~/gitwork/"]
   path = ~/gitwork/.gitconfig
 [includeIf "gitdir:~/gitpub/"]
